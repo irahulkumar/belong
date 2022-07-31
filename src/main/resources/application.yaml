@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      database: numbers
+      uri: mongodb://localhost:27017/numbers
+      serviceConnectionTimeout: 30000
+      socketReadTimeout: 10000
+      socketConnectionTimeout: 10000
+      readTimeout: 3000
+      retry: 2
+      retryBackoffDuration: 1000
+      timeout: 240000
+      connectionTimeout: 300000
+      maxConnectionLifeTime: 5000
+
+belong:
+  collectionName: 'numbersV1'
